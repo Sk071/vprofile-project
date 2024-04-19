@@ -6,7 +6,7 @@ pipeline{
     agent any
     tools{
         jdk 'jdk11'
-        maven 'mvn34'
+        maven 'mvn3'
     }
 
     environment{
@@ -27,7 +27,7 @@ pipeline{
 
         stage('Build'){
             steps{
-                sh 'mvn -s settings.xml -DskipTests install'
+                sh 'mvnNN -s settings.xml -DskipTests install'
             }
             post{
                 success{
