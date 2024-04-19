@@ -11,7 +11,7 @@ pipeline{
         NEXUS_PASS = '12345678'
         RELEASE_REPO = 'vprofile-release'
         CENTRAL_REPO = 'vpromvn-central'
-        NEXUSIP = '18.206.145.4'
+        NEXUSIP = '172.31.80.186'
         NEXUSPORT = '8081'
         NEXUS_GRP_REPO = 'vprofile-group'
         NEXUS_LOGIN = 'nexuslogin'
